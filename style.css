@@ -1,0 +1,110 @@
+.canvas {
+  /*this is the style for the frame */
+    width: 700px;
+    height: 700px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.face {
+  /*this is the style for  the face */
+    width: 400px;
+    height: 450px;
+    background-color: rgb(245, 187, 115);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    top: 100px; 
+    left: 150px;
+}
+
+.eye_right {
+
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, white, rgb(247, 185, 109));
+    border-style: solid;  
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    position:absolute;
+    top: 15%;
+    left: 47%;
+    
+
+}
+
+.eye_left {
+
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, white, rgb(230, 165, 85));
+    border-style: solid;  
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    position:absolute;
+    top: 15%;
+    left: 36%;
+
+}
+
+.pupil {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-style: solid;  
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    position:absolute;  
+    top: 40px;
+    left: 50px;
+}
+
+.eyelid {
+    width: 100px;
+    border-top: 2px solid black;
+    position: absolute;
+    top: 60%;
+  }
+
+.back_hair {
+    width:200px;
+    height:50px;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    border-top-right-radius: 60%;
+    position: absolute;
+    top: 3%;
+    right: 35%;
+  
+  }
+
+  .front_hair {
+      width:150px;
+      height:50px;
+      background-color: black;
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+      border-radius: 50%;
+      position: absolute;
+      top: 3%;
+      right: 50%;
+  }
