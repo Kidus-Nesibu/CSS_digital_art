@@ -1,5 +1,5 @@
+/*
 .canvas {
-  /*this is the style for the frame */
     width: 700px;
     height: 700px;
     border-style: solid;
@@ -9,22 +9,21 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-
-
-}
+  }
+*/
 
 .face {
   /*this is the style for  the face */
     width: 400px;
-    height: 450px;
-    background-color: rgb(245, 187, 115);
+    height: 550px;
+    background-color: rgb(247, 185, 109);
     border-style: solid;
     border-color: black;
     border-width: 2px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: auto;
     top: 100px; 
     left: 150px;
@@ -91,9 +90,10 @@
     border-radius: 50%;
     border-top-right-radius: 60%;
     position: absolute;
-    top: 3%;
+    top: 1%;
     right: 35%;
-  
+      border-right: none;
+    border-bottom: none;
   }
 
   .front_hair {
@@ -105,6 +105,194 @@
       border-width: 2px;
       border-radius: 50%;
       position: absolute;
-      top: 3%;
+      top: 1%;
       right: 50%;
   }
+
+  .hair_strand_1 {
+    width: 100px;
+    height: 150px;
+    border-radius: 47%;
+    background-color:black;
+    position: absolute;
+    transform: rotate(30deg);
+    top: 5%;
+    right: 33%;
+    
+  }
+
+  .hair_strand_2 {
+    width: 50px;
+    height: 100px;
+    background-color:black;
+    position: absolute;
+    border-radius: 10%;
+    transform: rotate(30deg);
+    top: 13%;
+    right: 33.90%;
+
+  }
+
+  .hair_strand_3 {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    border-radius: 10%;
+    transform: rotate(30deg);
+    top: 20%;
+    right: 35.90%;
+  }
+
+  .face_filler_1{
+    width:150px;
+    height:30px; /*this is the style for the frame */
+    border-radius: 50%;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    transform: rotate(10deg);
+    top: 8%;
+    right: 39%;
+    
+  }
+
+  .face_filler_2{
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    transform: rotate(25deg);
+    top: 11%;
+    right: 39%;
+  }
+
+  .face_filler_3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    top: 21%;
+    right: 38%;
+  }
+
+  .face_filler_4{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    top: 30%;
+    right: 36%;
+  }
+
+  .face_filler_5{
+    width: 120px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    transform: rotate(-10deg);
+    top: 8%;
+    right: 50%;
+
+  }
+  .face_filler_6{
+    width: 60px;
+    height: 39px;
+    border-radius: 40%;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    transform: rotate(-10deg);
+    top: 9%;
+    right: 56%;
+  }
+
+  .chin_filler_1{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(247, 185, 109);
+    position: absolute;
+    top: 35%;
+    right: 45%;
+  }
+
+
+
+  .face_border_1 {
+    width: 70px;
+    height:70px;
+    background-color: rgb(247, 185, 109);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius:50%;
+    border-bottom: none;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    border-right: none;
+    position: absolute;
+    top: 8%;
+    right: 57%;    
+  }
+  
+
+.chin_left {
+    width: 320px;
+    height: 350px;
+    background-color: rgb(247, 185, 109);
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-width: 2px;
+    border-radius: 40%;
+
+    position: absolute;
+    top: 29%;
+    right: 45%;
+    transform: rotate(50deg);
+}
+
+.chin_right {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 185, 109);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 40%;
+    border-right: none;
+    position: absolute;
+    top: 30%;
+    left: 44% ;
+    transform: rotate(-116deg);
+}
+
+
+.chin_skin {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 0 0 0 100px;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-225deg);
+  position:absolute;
+  top: 65%;
+  left: 45%;
+
+}
+
+.mouth {
+    width: 250px;
+    height: 70px;
+    background-color:rgb(247, 185, 109);  
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0%;
+    position: absolute;
+    transform: rotate(-25deg);
+    bottom: 45%;
+    left: 40%;
+}
