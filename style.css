@@ -283,6 +283,32 @@
 
 }
 
+.eye_brow_1 {
+    width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 0 0 0 100px;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-240deg);
+  position:absolute;
+  top: 9%;
+  left: 39%;
+}
+
+.eye_brow_2 {
+    width: 38px;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 0 0 0 100px;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-209deg);
+    position:absolute;
+    top: 8%;
+    left: 50%;
+}
+/*
 .mouth {
     width: 250px;
     height: 70px;
@@ -296,3 +322,5 @@
     bottom: 45%;
     left: 40%;
 }
+*/
+
